@@ -1,0 +1,53 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+  <style type="text/css">
+    .nda-map-panel {
+      height: 350px;
+      width: 800px;
+      border: 5px solid rgba(199, 197, 197, 0.884);
+    }
+    .nda-map-panel .nda-map-tools {
+      height: 30px;
+      padding: 5px 10px;
+      color: rgb(128, 126, 126);
+      line-height: 20px;
+    }
+    .nda-map-panel .nda-map-tools select {
+      width: 100px;
+      line-height: 20px;
+      border-color: rgba(199, 197, 197, 0.884);
+    }
+    .nda-map-panel .nda-map {
+      height: 270px;
+      width: 100%;
+    }
+    .nda-map-panel .nda-map-foot {
+      text-align: center;
+      line-height: 40px;
+    }
+    .nda-map-panel .nda-map-foot button {
+      margin:0 5px;
+      background-color: rgb(66, 73, 170);
+      border:0;
+      color: white;
+      padding: 4px;
+      width: 60px;
+    }
+    .nda-map-panel .nda-map-foot button.nda-map-no {
+      margin:0 5px;
+      background-color: rgb(165, 165, 172);
+    }
+  </style>
+  <title>快速入门</title>
+</head>
+<body>
+    <button class="nda-district-select-button" data-provinceCode="310000">选择区域1</button>
+    <button class="nda-district-select-button" data-provinceCode="330000">选择区域2</button>
+  <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.0&key=276b5ee0926777344b7800dcbd01c957"></script>
+  <script type="text/javascript" src="jquery.min.js"></script>  
+  <script type="text/javascript" src="jquery.map.js"></script>
+</body>
+</html>
